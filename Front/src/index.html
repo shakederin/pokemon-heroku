@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="stylesheet" href="./index.css" /> -->
+    <title>Pokedex</title>
+</head>
+<body>
+    <div id="singIn" style="z-index: 1">
+        <form id="entrypage"> 
+            <input id="usernameInput" class="username" placeholder="Enter your username">
+            <button  id="bttn" type="button">Sign in</button>
+        </form>
+    </div>
+        <div id="root" style ='background-image: url("http://gran4u.xtgem.com/Pokedex.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;'>
+            <div class="App">
+                <img id= "h1" src="https://cdn2.bulbagarden.net/upload/4/4b/Pok%C3%A9dex_logo.png" >
+                <div>
+                    <span id="curtain"></span>
+                    <div class="details-div">
+                        <ul id = "info">
+                            <li id= "name"> </li>
+                            <li id= "height"> </li>
+                            <li id= "weight"> </li>
+                            <li id= "types"></li>
+                        </ul>
+                        <img id= "pokimonImg" src="">
+                    </div>
+                    <div id ="lowDiv" class= "sreachArea">
+                        <button id="catchBtn">Catch</button>
+                        <button id="releaseBtn">Release</button>
+                        <input id="input" type="text" value="" placeholder="Search For Pokimon">
+                        <button id = "button" type="button">&#128269;</button><br>
+                    </div>
+                    <div id="errorMsg"></div>
+                </div>
+               <div id="ownPokimon">
+
+               </div>
+            </div>
+        </div>
+        <table class="table" >
+            <thead>
+              <tr>
+                <th scope="col">Pokemon Name</th>
+              </tr>
+            </thead>
+            <tbody id="typeTable">
+            </tbody>
+          </table>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src = "index.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+</body>
+</html>

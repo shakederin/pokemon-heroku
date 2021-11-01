@@ -1,0 +1,99 @@
+#info{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+} 
+
+#h1{
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.details-div{
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+#pokimonImg{
+    height: 30%;
+    width: 30%;
+    margin-left: 12%;
+}
+
+.sreachArea{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+#button{
+    cursor: pointer;
+}
+
+#root{
+    margin-top: 1%;
+}
+
+#errorMsg{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    font-size: 60px;
+    color: rgb(5, 18, 206) ;
+    font-weight: bold;
+}
+
+.username{
+    margin: 5% 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 12px 20px; 
+    font-size: 25px;
+}
+
+#entrypage{
+    margin-left: 40%;
+    width: 25%;
+    margin-top: 5%;
+    border-style: solid;
+}
+
+#bttn{
+    margin-left: 15%;
+    margin-bottom: 15%;
+    width: 70%;
+    font-size: 30px;
+    color: gold;
+    border-style: solid;
+    padding: 1%;
+    background-color: rgb(78, 78, 143);
+}
+
+#curtain{
+    font-size: 60px;
+    margin-left: 60%;
+    color: gold;
+    text-shadow: -2px -2px 0 rgb(26, 29, 209), 1px -1px 0 rgb(26, 29, 209), -1px 1px 0 rgb(26, 29, 209), 1px 1px 0 rgb(26, 29, 209);
+    padding: 1%;
+}
+
+#ownPokimon{
+    font-size: 35px;
+    color: rgb(255, 218, 11);
+    text-shadow: -2px -2px 0 rgb(26, 29, 209), 1px -1px 0 rgb(26, 29, 209), -1px 1px 0 rgb(26, 29, 209), 1px 1px 0 rgb(26, 29, 209);
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
